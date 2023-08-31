@@ -58,8 +58,8 @@ Feature: Retail Account Page
     When User click on Account option
     And User click on edit address option
     And user fill new address form with below informations
-      | country       | fullName   | phoneNumber | streetAddress    | apt | city       | state | zipCode |
-      | United States | fullnameValue |  PhoneValue |stAddress| aptValue| cityValue |stateValue| zipCodeValue |
+      | country       | fullName      | phoneNumber | streetAddress | apt      | city      | state      | zipCode      |
+      | United States | fullnameValue | PhoneValue  | stAddress     | aptValue | cityValue | stateValue | zipCodeValue |
     And User click update Your Address button
     Then a message should be displayed ‘Address Updated Successfully’
 

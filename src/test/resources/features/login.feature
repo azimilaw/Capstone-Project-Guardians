@@ -1,4 +1,4 @@
-@Smoke
+@regrassion
 Feature: Login
 
   Background: 
@@ -15,7 +15,7 @@ Feature: Login
   Scenario: Verify user is able to create account in retail website
     Given User click on create new account button
     And User fill the signUp information with below data
-      | name  | email                 | password  | confirmPassword |
-      | firstName | email| Habib123@ | Habib123@       |
+      | name      | email | password  | confirmPassword |
+      | firstName | email | Habib123@ | Habib123@       |
     And User click on SignUP button
     Then User account should be created into retail page
